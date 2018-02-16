@@ -1,0 +1,871 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ACFD5CABA5B0C51007ADB4C /* Pods_CalCaboAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F946C6603B63C1A8D5D45C7A /* Pods_CalCaboAppTests.framework */; };
+		3B6FC07CA01C22EEC85E81B8 /* Pods_CalCaboApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C842E0D502168AE5143250 /* Pods_CalCaboApp.framework */; };
+		540E6107E6D4B69953BF29AB /* Pods_CalCaboAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12FBC85FF4571742AAB6A89A /* Pods_CalCaboAppUITests.framework */; };
+		7A3AEFB4200DCC9300626B3B /* button_Custum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3AEFB3200DCC9300626B3B /* button_Custum.swift */; };
+		7A3BC6F72021C6A2004EE195 /* Jiyucho.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7A3BC6F62021C685004EE195 /* Jiyucho.otf */; };
+		7A404992202C27040075D016 /* NBImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A404991202C27030075D016 /* NBImage.png */; };
+		7A5367EC2033DB44004438EB /* 469747.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5367EB2033DB43004438EB /* 469747.png */; };
+		7A5367EE20342997004438EB /* iTunesArtwork@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A5367ED20342996004438EB /* iTunesArtwork@1x.png */; };
+		7A53DB87200764A500C06531 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A53DB86200764A500C06531 /* AppDelegate.swift */; };
+		7A53DB89200764A500C06531 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A53DB88200764A500C06531 /* ViewController.swift */; };
+		7A53DB8C200764A500C06531 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A53DB8A200764A500C06531 /* Main.storyboard */; };
+		7A53DB8F200764A500C06531 /* CalCaboApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A53DB8D200764A500C06531 /* CalCaboApp.xcdatamodeld */; };
+		7A53DB91200764A500C06531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A53DB90200764A500C06531 /* Assets.xcassets */; };
+		7A53DB94200764A500C06531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A53DB92200764A500C06531 /* LaunchScreen.storyboard */; };
+		7A53DB9F200764A500C06531 /* CalCaboAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A53DB9E200764A500C06531 /* CalCaboAppTests.swift */; };
+		7A53DBAA200764A500C06531 /* CalCaboAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A53DBA9200764A500C06531 /* CalCaboAppUITests.swift */; };
+		7A68C47420185B7D00AA5736 /* numberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A68C47320185B7D00AA5736 /* numberViewController.swift */; };
+		7A78E004200DAAC6006B833A /* textField_Custum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A78E003200DAAC6006B833A /* textField_Custum.swift */; };
+		7A9C45DA2032AEB500374517 /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9C45D92032AEB500374517 /* resultViewController.swift */; };
+		7A9C45DC2032B9E900374517 /* 691656.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A9C45DB2032B9E700374517 /* 691656.png */; };
+		7AAFEB33200F4587008EF270 /* InsertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAFEB32200F4587008EF270 /* InsertViewController.swift */; };
+		7AAFEB35200F45F6008EF270 /* configViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAFEB34200F45F6008EF270 /* configViewController.swift */; };
+		7AB81BCD200DF4860031B9EC /* human25px.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AB81BCC200DF4860031B9EC /* human25px.png */; };
+		7AB81BD5200DFAAB0031B9EC /* eat24px.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AB81BD4200DFAAB0031B9EC /* eat24px.png */; };
+		7AE2717D202D4FBB002A9F54 /* eat.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE2717C202D4FBA002A9F54 /* eat.png */; };
+		7AE2717F202DA502002A9F54 /* icon_115540_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE2717E202DA501002A9F54 /* icon_115540_32.png */; };
+		7AE27181202DA67A002A9F54 /* icon_115500_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE27180202DA679002A9F54 /* icon_115500_32.png */; };
+		7AE27183202DA684002A9F54 /* icon_115520_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE27182202DA682002A9F54 /* icon_115520_32.png */; };
+		7AE3073A200EE75000E99BC5 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE30739200EE74F00E99BC5 /* check.png */; };
+		7AE3073C200EE76300E99BC5 /* noncheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE3073B200EE76300E99BC5 /* noncheck.png */; };
+		7AF6C90E20297B1800F8F73F /* Makinas-Scrap-5.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7AF6C90D20297AB900F8F73F /* Makinas-Scrap-5.otf */; };
+		7AF6C912202985B000F8F73F /* 691625.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AF6C911202985AF00F8F73F /* 691625.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A53DB9B200764A500C06531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A53DB7B200764A500C06531 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A53DB82200764A500C06531;
+			remoteInfo = CalCaboApp;
+		};
+		7A53DBA6200764A500C06531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A53DB7B200764A500C06531 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A53DB82200764A500C06531;
+			remoteInfo = CalCaboApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0425E82B53D12AE57830DC8E /* Pods-CalCaboAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalCaboAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CalCaboAppUITests/Pods-CalCaboAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		05979B9B17C462403425DF73 /* Pods-CalCaboApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalCaboApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CalCaboApp/Pods-CalCaboApp.release.xcconfig"; sourceTree = "<group>"; };
+		12FBC85FF4571742AAB6A89A /* Pods_CalCaboAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalCaboAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C842E0D502168AE5143250 /* Pods_CalCaboApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalCaboApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D286A92A6E5B3A02887359 /* Pods-CalCaboApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalCaboApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CalCaboApp/Pods-CalCaboApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7A3AEFB3200DCC9300626B3B /* button_Custum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = button_Custum.swift; sourceTree = "<group>"; };
+		7A3BC6F62021C685004EE195 /* Jiyucho.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Jiyucho.otf; sourceTree = "<group>"; };
+		7A404991202C27030075D016 /* NBImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NBImage.png; sourceTree = "<group>"; };
+		7A5367EB2033DB43004438EB /* 469747.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 469747.png; path = ../../../Downloads/469747_png_wi/469747.png; sourceTree = "<group>"; };
+		7A5367ED20342996004438EB /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@1x.png"; path = "../../../Downloads/CalCaboIcon/ios/iTunesArtwork@1x.png"; sourceTree = "<group>"; };
+		7A53DB83200764A500C06531 /* CalCaboApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalCaboApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A53DB86200764A500C06531 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A53DB88200764A500C06531 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A53DB8B200764A500C06531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A53DB8E200764A500C06531 /* CalCaboApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CalCaboApp.xcdatamodel; sourceTree = "<group>"; };
+		7A53DB90200764A500C06531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A53DB93200764A500C06531 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A53DB95200764A500C06531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A53DB9A200764A500C06531 /* CalCaboAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalCaboAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A53DB9E200764A500C06531 /* CalCaboAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalCaboAppTests.swift; sourceTree = "<group>"; };
+		7A53DBA0200764A500C06531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A53DBA5200764A500C06531 /* CalCaboAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalCaboAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A53DBA9200764A500C06531 /* CalCaboAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalCaboAppUITests.swift; sourceTree = "<group>"; };
+		7A53DBAB200764A500C06531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A68C47320185B7D00AA5736 /* numberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = numberViewController.swift; sourceTree = "<group>"; };
+		7A78E003200DAAC6006B833A /* textField_Custum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textField_Custum.swift; sourceTree = "<group>"; };
+		7A9C45D92032AEB500374517 /* resultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
+		7A9C45DB2032B9E700374517 /* 691656.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 691656.png; path = ../../../Downloads/691656_png_wi/691656.png; sourceTree = "<group>"; };
+		7AAFEB32200F4587008EF270 /* InsertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertViewController.swift; sourceTree = "<group>"; };
+		7AAFEB34200F45F6008EF270 /* configViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = configViewController.swift; sourceTree = "<group>"; };
+		7AB81BCC200DF4860031B9EC /* human25px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = human25px.png; sourceTree = "<group>"; };
+		7AB81BD4200DFAAB0031B9EC /* eat24px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eat24px.png; sourceTree = "<group>"; };
+		7AE2717C202D4FBA002A9F54 /* eat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eat.png; sourceTree = "<group>"; };
+		7AE2717E202DA501002A9F54 /* icon_115540_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_115540_32.png; path = ../../../Downloads/icon_115540_32.png; sourceTree = "<group>"; };
+		7AE27180202DA679002A9F54 /* icon_115500_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_115500_32.png; path = ../../../Downloads/icon_115500_32.png; sourceTree = "<group>"; };
+		7AE27182202DA682002A9F54 /* icon_115520_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_115520_32.png; path = ../../../Downloads/icon_115520_32.png; sourceTree = "<group>"; };
+		7AE30739200EE74F00E99BC5 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		7AE3073B200EE76300E99BC5 /* noncheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noncheck.png; sourceTree = "<group>"; };
+		7AF6C90D20297AB900F8F73F /* Makinas-Scrap-5.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Makinas-Scrap-5.otf"; sourceTree = "<group>"; };
+		7AF6C911202985AF00F8F73F /* 691625.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 691625.png; sourceTree = "<group>"; };
+		9D3BA29D450808E22B955361 /* Pods-CalCaboAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalCaboAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CalCaboAppTests/Pods-CalCaboAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A24D8D2EB07DF7951799547D /* Pods-CalCaboAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalCaboAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CalCaboAppUITests/Pods-CalCaboAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B78FA6344AF8C8CBFE21BDAB /* Pods-CalCaboAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalCaboAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CalCaboAppTests/Pods-CalCaboAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		F946C6603B63C1A8D5D45C7A /* Pods_CalCaboAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalCaboAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A53DB80200764A500C06531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6FC07CA01C22EEC85E81B8 /* Pods_CalCaboApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A53DB97200764A500C06531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ACFD5CABA5B0C51007ADB4C /* Pods_CalCaboAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A53DBA2200764A500C06531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540E6107E6D4B69953BF29AB /* Pods_CalCaboAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ABB673117EF74DD51A389FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15D286A92A6E5B3A02887359 /* Pods-CalCaboApp.debug.xcconfig */,
+				05979B9B17C462403425DF73 /* Pods-CalCaboApp.release.xcconfig */,
+				9D3BA29D450808E22B955361 /* Pods-CalCaboAppTests.debug.xcconfig */,
+				B78FA6344AF8C8CBFE21BDAB /* Pods-CalCaboAppTests.release.xcconfig */,
+				0425E82B53D12AE57830DC8E /* Pods-CalCaboAppUITests.debug.xcconfig */,
+				A24D8D2EB07DF7951799547D /* Pods-CalCaboAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A53DB7A200764A500C06531 = {
+			isa = PBXGroup;
+			children = (
+				7A53DB85200764A500C06531 /* CalCaboApp */,
+				7A53DB9D200764A500C06531 /* CalCaboAppTests */,
+				7A53DBA8200764A500C06531 /* CalCaboAppUITests */,
+				7A53DB84200764A500C06531 /* Products */,
+				6ABB673117EF74DD51A389FC /* Pods */,
+				F827681DBB11AF0BCD638EAF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A53DB84200764A500C06531 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A53DB83200764A500C06531 /* CalCaboApp.app */,
+				7A53DB9A200764A500C06531 /* CalCaboAppTests.xctest */,
+				7A53DBA5200764A500C06531 /* CalCaboAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A53DB85200764A500C06531 /* CalCaboApp */ = {
+			isa = PBXGroup;
+			children = (
+				7AE2717C202D4FBA002A9F54 /* eat.png */,
+				7A9C45DB2032B9E700374517 /* 691656.png */,
+				7A5367EB2033DB43004438EB /* 469747.png */,
+				7AE27182202DA682002A9F54 /* icon_115520_32.png */,
+				7AE27180202DA679002A9F54 /* icon_115500_32.png */,
+				7AE2717E202DA501002A9F54 /* icon_115540_32.png */,
+				7A404991202C27030075D016 /* NBImage.png */,
+				7AF6C911202985AF00F8F73F /* 691625.png */,
+				7A3BC6F62021C685004EE195 /* Jiyucho.otf */,
+				7AF6C90D20297AB900F8F73F /* Makinas-Scrap-5.otf */,
+				7AE3073B200EE76300E99BC5 /* noncheck.png */,
+				7AE30739200EE74F00E99BC5 /* check.png */,
+				7AB81BD4200DFAAB0031B9EC /* eat24px.png */,
+				7AB81BCC200DF4860031B9EC /* human25px.png */,
+				7A5367ED20342996004438EB /* iTunesArtwork@1x.png */,
+				7A53DB86200764A500C06531 /* AppDelegate.swift */,
+				7A53DB88200764A500C06531 /* ViewController.swift */,
+				7A53DB8A200764A500C06531 /* Main.storyboard */,
+				7A68C47320185B7D00AA5736 /* numberViewController.swift */,
+				7A53DB90200764A500C06531 /* Assets.xcassets */,
+				7A53DB92200764A500C06531 /* LaunchScreen.storyboard */,
+				7A53DB95200764A500C06531 /* Info.plist */,
+				7A53DB8D200764A500C06531 /* CalCaboApp.xcdatamodeld */,
+				7A78E003200DAAC6006B833A /* textField_Custum.swift */,
+				7A3AEFB3200DCC9300626B3B /* button_Custum.swift */,
+				7AAFEB32200F4587008EF270 /* InsertViewController.swift */,
+				7AAFEB34200F45F6008EF270 /* configViewController.swift */,
+				7A9C45D92032AEB500374517 /* resultViewController.swift */,
+			);
+			path = CalCaboApp;
+			sourceTree = "<group>";
+		};
+		7A53DB9D200764A500C06531 /* CalCaboAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A53DB9E200764A500C06531 /* CalCaboAppTests.swift */,
+				7A53DBA0200764A500C06531 /* Info.plist */,
+			);
+			path = CalCaboAppTests;
+			sourceTree = "<group>";
+		};
+		7A53DBA8200764A500C06531 /* CalCaboAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A53DBA9200764A500C06531 /* CalCaboAppUITests.swift */,
+				7A53DBAB200764A500C06531 /* Info.plist */,
+			);
+			path = CalCaboAppUITests;
+			sourceTree = "<group>";
+		};
+		F827681DBB11AF0BCD638EAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14C842E0D502168AE5143250 /* Pods_CalCaboApp.framework */,
+				F946C6603B63C1A8D5D45C7A /* Pods_CalCaboAppTests.framework */,
+				12FBC85FF4571742AAB6A89A /* Pods_CalCaboAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A53DB82200764A500C06531 /* CalCaboApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A53DBAE200764A500C06531 /* Build configuration list for PBXNativeTarget "CalCaboApp" */;
+			buildPhases = (
+				95CB1DCBDBAAD16801AFF958 /* [CP] Check Pods Manifest.lock */,
+				7A53DB7F200764A500C06531 /* Sources */,
+				7A53DB80200764A500C06531 /* Frameworks */,
+				7A53DB81200764A500C06531 /* Resources */,
+				E6EEFC5E83A0506AB0A60809 /* [CP] Embed Pods Frameworks */,
+				E3D49590589FC8D40DAE616B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalCaboApp;
+			productName = CalCaboApp;
+			productReference = 7A53DB83200764A500C06531 /* CalCaboApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A53DB99200764A500C06531 /* CalCaboAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A53DBB1200764A500C06531 /* Build configuration list for PBXNativeTarget "CalCaboAppTests" */;
+			buildPhases = (
+				91FF8D1F6C6934AF0E838925 /* [CP] Check Pods Manifest.lock */,
+				7A53DB96200764A500C06531 /* Sources */,
+				7A53DB97200764A500C06531 /* Frameworks */,
+				7A53DB98200764A500C06531 /* Resources */,
+				5A64DA8574EF0B1CAF3C1B23 /* [CP] Embed Pods Frameworks */,
+				E3ECDA64193A3B8B8D0B5A7B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A53DB9C200764A500C06531 /* PBXTargetDependency */,
+			);
+			name = CalCaboAppTests;
+			productName = CalCaboAppTests;
+			productReference = 7A53DB9A200764A500C06531 /* CalCaboAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A53DBA4200764A500C06531 /* CalCaboAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A53DBB4200764A500C06531 /* Build configuration list for PBXNativeTarget "CalCaboAppUITests" */;
+			buildPhases = (
+				16DBF9ED3D558A9637F8F9A6 /* [CP] Check Pods Manifest.lock */,
+				7A53DBA1200764A500C06531 /* Sources */,
+				7A53DBA2200764A500C06531 /* Frameworks */,
+				7A53DBA3200764A500C06531 /* Resources */,
+				BDB77C11390876564DBEC75C /* [CP] Embed Pods Frameworks */,
+				161CCA70EC251F26D37B479B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A53DBA7200764A500C06531 /* PBXTargetDependency */,
+			);
+			name = CalCaboAppUITests;
+			productName = CalCaboAppUITests;
+			productReference = 7A53DBA5200764A500C06531 /* CalCaboAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A53DB7B200764A500C06531 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = yamanaka;
+				TargetAttributes = {
+					7A53DB82200764A500C06531 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7A53DB99200764A500C06531 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A53DB82200764A500C06531;
+					};
+					7A53DBA4200764A500C06531 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A53DB82200764A500C06531;
+					};
+				};
+			};
+			buildConfigurationList = 7A53DB7E200764A500C06531 /* Build configuration list for PBXProject "CalCaboApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A53DB7A200764A500C06531;
+			productRefGroup = 7A53DB84200764A500C06531 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A53DB82200764A500C06531 /* CalCaboApp */,
+				7A53DB99200764A500C06531 /* CalCaboAppTests */,
+				7A53DBA4200764A500C06531 /* CalCaboAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A53DB81200764A500C06531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF6C90E20297B1800F8F73F /* Makinas-Scrap-5.otf in Resources */,
+				7A404992202C27040075D016 /* NBImage.png in Resources */,
+				7A5367EC2033DB44004438EB /* 469747.png in Resources */,
+				7A3BC6F72021C6A2004EE195 /* Jiyucho.otf in Resources */,
+				7AE3073C200EE76300E99BC5 /* noncheck.png in Resources */,
+				7AE3073A200EE75000E99BC5 /* check.png in Resources */,
+				7A53DB94200764A500C06531 /* LaunchScreen.storyboard in Resources */,
+				7A9C45DC2032B9E900374517 /* 691656.png in Resources */,
+				7AF6C912202985B000F8F73F /* 691625.png in Resources */,
+				7AE2717F202DA502002A9F54 /* icon_115540_32.png in Resources */,
+				7A53DB91200764A500C06531 /* Assets.xcassets in Resources */,
+				7A53DB8C200764A500C06531 /* Main.storyboard in Resources */,
+				7AB81BCD200DF4860031B9EC /* human25px.png in Resources */,
+				7A5367EE20342997004438EB /* iTunesArtwork@1x.png in Resources */,
+				7AE27181202DA67A002A9F54 /* icon_115500_32.png in Resources */,
+				7AB81BD5200DFAAB0031B9EC /* eat24px.png in Resources */,
+				7AE2717D202D4FBB002A9F54 /* eat.png in Resources */,
+				7AE27183202DA684002A9F54 /* icon_115520_32.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A53DB98200764A500C06531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A53DBA3200764A500C06531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		161CCA70EC251F26D37B479B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalCaboAppUITests/Pods-CalCaboAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16DBF9ED3D558A9637F8F9A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalCaboAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A64DA8574EF0B1CAF3C1B23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalCaboAppTests/Pods-CalCaboAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91FF8D1F6C6934AF0E838925 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalCaboAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95CB1DCBDBAAD16801AFF958 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CalCaboApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDB77C11390876564DBEC75C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalCaboAppUITests/Pods-CalCaboAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3D49590589FC8D40DAE616B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalCaboApp/Pods-CalCaboApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3ECDA64193A3B8B8D0B5A7B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalCaboAppTests/Pods-CalCaboAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6EEFC5E83A0506AB0A60809 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CalCaboApp/Pods-CalCaboApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalCaboApp/Pods-CalCaboApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A53DB7F200764A500C06531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A3AEFB4200DCC9300626B3B /* button_Custum.swift in Sources */,
+				7A53DB8F200764A500C06531 /* CalCaboApp.xcdatamodeld in Sources */,
+				7A53DB89200764A500C06531 /* ViewController.swift in Sources */,
+				7A9C45DA2032AEB500374517 /* resultViewController.swift in Sources */,
+				7AAFEB35200F45F6008EF270 /* configViewController.swift in Sources */,
+				7AAFEB33200F4587008EF270 /* InsertViewController.swift in Sources */,
+				7A68C47420185B7D00AA5736 /* numberViewController.swift in Sources */,
+				7A78E004200DAAC6006B833A /* textField_Custum.swift in Sources */,
+				7A53DB87200764A500C06531 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A53DB96200764A500C06531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A53DB9F200764A500C06531 /* CalCaboAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A53DBA1200764A500C06531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A53DBAA200764A500C06531 /* CalCaboAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A53DB9C200764A500C06531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A53DB82200764A500C06531 /* CalCaboApp */;
+			targetProxy = 7A53DB9B200764A500C06531 /* PBXContainerItemProxy */;
+		};
+		7A53DBA7200764A500C06531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A53DB82200764A500C06531 /* CalCaboApp */;
+			targetProxy = 7A53DBA6200764A500C06531 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A53DB8A200764A500C06531 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A53DB8B200764A500C06531 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A53DB92200764A500C06531 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A53DB93200764A500C06531 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A53DBAC200764A500C06531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A53DBAD200764A500C06531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A53DBAF200764A500C06531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D286A92A6E5B3A02887359 /* Pods-CalCaboApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DGSZN3FW9S;
+				INFOPLIST_FILE = CalCaboApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lepra.CalCaboApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A53DBB0200764A500C06531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05979B9B17C462403425DF73 /* Pods-CalCaboApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DGSZN3FW9S;
+				INFOPLIST_FILE = CalCaboApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lepra.CalCaboApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A53DBB2200764A500C06531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D3BA29D450808E22B955361 /* Pods-CalCaboAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalCaboAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lepra.CalCaboAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalCaboApp.app/CalCaboApp";
+			};
+			name = Debug;
+		};
+		7A53DBB3200764A500C06531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B78FA6344AF8C8CBFE21BDAB /* Pods-CalCaboAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalCaboAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lepra.CalCaboAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalCaboApp.app/CalCaboApp";
+			};
+			name = Release;
+		};
+		7A53DBB5200764A500C06531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0425E82B53D12AE57830DC8E /* Pods-CalCaboAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalCaboAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lepra.CalCaboAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalCaboApp;
+			};
+			name = Debug;
+		};
+		7A53DBB6200764A500C06531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A24D8D2EB07DF7951799547D /* Pods-CalCaboAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalCaboAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lepra.CalCaboAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CalCaboApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A53DB7E200764A500C06531 /* Build configuration list for PBXProject "CalCaboApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A53DBAC200764A500C06531 /* Debug */,
+				7A53DBAD200764A500C06531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A53DBAE200764A500C06531 /* Build configuration list for PBXNativeTarget "CalCaboApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A53DBAF200764A500C06531 /* Debug */,
+				7A53DBB0200764A500C06531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A53DBB1200764A500C06531 /* Build configuration list for PBXNativeTarget "CalCaboAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A53DBB2200764A500C06531 /* Debug */,
+				7A53DBB3200764A500C06531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A53DBB4200764A500C06531 /* Build configuration list for PBXNativeTarget "CalCaboAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A53DBB5200764A500C06531 /* Debug */,
+				7A53DBB6200764A500C06531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7A53DB8D200764A500C06531 /* CalCaboApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7A53DB8E200764A500C06531 /* CalCaboApp.xcdatamodel */,
+			);
+			currentVersion = 7A53DB8E200764A500C06531 /* CalCaboApp.xcdatamodel */;
+			path = CalCaboApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7A53DB7B200764A500C06531 /* Project object */;
+}
