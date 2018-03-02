@@ -266,7 +266,6 @@ class ViewController: UIViewController {
         if iVC.insertUserDefalt.object(forKey: "lastInsertDate") != nil {
             let lastInsertDate = iVC.insertUserDefalt.object(forKey: "lastInsertDate") as! Date
             var lastDay = calender.component(.day, from: lastInsertDate)
-            
             if lastDay != nowDay {
                 //最終入力から日付が変わってた
                 dayNumRst()
